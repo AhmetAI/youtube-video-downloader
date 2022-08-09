@@ -1,5 +1,5 @@
 # Python Youtube Video Downloader!
-## [TR](#türkçe)  [EN](#english)
+## **[TR](#türkçe)  [EN](#english)**
 
 
 
