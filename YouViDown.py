@@ -1,6 +1,5 @@
 import pytube.exceptions
 from pytube import YouTube
-import threading
 from tkinter import *
 from tkinter import font
 from tkinter import filedialog
