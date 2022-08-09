@@ -81,11 +81,6 @@ def check():
             print("Wrong URL Link!")
 
 
-
-
-
-
-
 video_resolution = [
     "360p",
     "720p"
@@ -104,16 +99,13 @@ def browse():
     print(folder_dir)
 
 
-
 def download():
     global link
     global folder_dir
 
 
-
     yt = YouTube(link)
     mp4s = yt.streams.filter(file_extension="mp4", progressive=True)
-
 
 
     res = resolution.get()
@@ -131,7 +123,6 @@ def download():
             support_L.lower()
 
 
-
     except IndexError:
         #print("The video does not support this quality!")
         t_title.lower()
@@ -142,14 +133,9 @@ def download():
         support_L["text"] = "The video does not support this quality!"
 
 
-
-
 check_button = Button(window, text="Check", command=check).place(relx=0.45, rely=0.35)
 browse_button = Button(window, text="Browse", font="5", command=browse).place(relx=0.30, rely=0.9)
 download_button = Button(window, text="Download", font="5",command=download).place(relx=0.50, rely=0.9)
 
 
 window.mainloop()
-
-#HATA MESAJLARINI GÖSTERİRKEN BİRBİRLERİNİ GİZLEME VE GÖSTERMEYİ YAP
-#LİNK GİRMEDEN İNDİRMEYE ÇALIŞINCA VEREN HATANIYI YAZDIR
