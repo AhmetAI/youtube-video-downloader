@@ -1,6 +1,6 @@
 # Python Youtube Video Downloader!
-## [TR]()
-## [EN]()
+## [TR](#tr-1)
+## [EN](#en-1)
 
 
 # TR
